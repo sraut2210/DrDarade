@@ -16727,6 +16727,9 @@ a:hover {
   max-width: 370px;
   width: 100%;
 }
+.follow{
+  margin-top:150px;
+}
 
 /**************************************************/
 /* responsive */
@@ -20930,6 +20933,9 @@ body {
   .other-services-2 {
     padding-top: 430px;
   }
+  .follow{
+    margin-top:30px;
+  }
   /*---------- End .other-services-2 responsive ----------*/
 }
 
@@ -20954,6 +20960,9 @@ body {
   /*---------- End .header-bottom responsive ----------*/
   .about {
     padding-top: 490px;
+  }
+  .follow{
+    margin-top:20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
