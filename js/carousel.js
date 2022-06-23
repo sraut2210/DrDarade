@@ -318,7 +318,7 @@ $("document").ready(function ($) {
         margin: 50,
         smartSpeed: 1000,
         autoplay: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 3000,
         mouseDrag: true,
         responsiveClass: true,
         responsive: {
