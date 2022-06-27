@@ -153,7 +153,7 @@
                         
 
                         <li class="navbar__menu-item">
-                            <a class="navbar__menu-link" href="#">Our Specialities</a>
+                            <a class="navbar__menu-link" href="services.html">Our Specialities</a>
                         </li>
 
                         <li class="navbar__menu-item">
@@ -204,7 +204,7 @@
             </div>
             <div class="container">
                 <div class="departments-3__item-1">
-                    <a href="departments-details.html" class="item">
+                    <a href="#" class="item">
                         <div class="img">
                             <img src="./images/jpg/department_1_column.jpg">
                         </div>
@@ -222,9 +222,9 @@
                         </div>
                     </a>
                     
-                    <a href="departments-details.html" class="item">
+                    <a href="#" class="item">
                         <div class="img">
-                            <img src="./images/jpg/department_1_column.jpg">
+                            <img src="./images/nims/670x477px.jpg">
                         </div>
                         <div class="content">
                             <span class="departments-3__item-bg-text">Nims Hospital</span>
@@ -380,9 +380,7 @@
             </div>
             <!-- Start of .footer__top -->
             <div class="footer__top">
-                <div class="footer__logo">
-                    <img src="./images/footer-logo.png" alt="footer-logo">
-                </div>
+               
                 <div class="container">
                     <div>
                         <div class="footer__top-blocks">
@@ -490,19 +488,19 @@
                                 <div class="content">
                                     <ul class="menu">
                                         <li>
-                                            <a href="#about"><i class="fa fa-angle-right"></i>About Us</a>
+                                            <a href="#about"> <i class="fa fa-angle-right"></i>       About Us</a>
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="#services"><i class="fa fa-angle-right"></i>Services</a>
+                                            <a href="#services"> <i class="fa fa-angle-right"></i>     Services</a>
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="#faq"><i class="fa fa-angle-right"></i>Treatments</a>
+                                            <a href="#departments"> <i class="fa fa-angle-right"></i>     Treatments</a>
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="#faq"><i class="fa fa-angle-right"></i>Gallery</a>
+                                            <a href="#gallery"> <i class="fa fa-angle-right"></i>     Gallery</a>
                                         </li>
                                         
                                     </ul>
@@ -628,6 +626,42 @@
     <!-- customer js -->
     <script src="./js/index.js"></script>
 
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?79765';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"Sarvadnya ENT Hospital",
+          "brandSubTitle":"Typically replies within a day",
+          "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+          "welcomeText":"Hi there!\nHow can I help you?",
+          "messageText":"Hello, I have a question about {{page_link}}",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"919404738612"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
 </body>
 
 </html>
