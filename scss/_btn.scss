@@ -9,7 +9,7 @@
     display: inline-block;
     font-family: $RobBold;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 3.1px;
     display: inline-block;
     color: $light-col;
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     
     &_pink {
-        padding: 20px 26px 20px 27px; 
+        padding: 20px 26px 20px 20px; 
         box-sizing: border-box;
         background-color: $primary-pink-2;
         // border: 2px solid $primary-pink-2;
