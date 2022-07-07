@@ -188,7 +188,7 @@ $("document").ready(function ($) {
                 .find(".accardion__item-text")
                 .slideUp();
             $(this)
-                .css("border-color", "#f22283")
+                .css("border-color", " #F22283 ")
                 .find(".accardion__item-text")
                 .slideDown();
         });
@@ -263,7 +263,7 @@ $("document").ready(function ($) {
                 // accardion - item
                 $(".department-accardion").find(".item").css("border-color", "#f0f0f0");
                 $(this).siblings(".item").find(".item-text").slideUp();
-                $(this).css("border-color", "#f22283").find(".item-text").slideDown();
+                $(this).css("border-color", " #F22283 ").find(".item-text").slideDown();
             });
     }
 
@@ -634,7 +634,7 @@ $("document").ready(function ($) {
                 // accardion - item
                 $(".faqs__cards").find(".faqs__cards-item").css("border-color", "#f0f0f0");
                 $(this).siblings(".faqs__cards-item").find(".faqs__cards-item-text").slideUp();
-                $(this).css("border-color", "#f22283").find(".faqs__cards-item-text").slideDown();
+                $(this).css("border-color", " #F22283 ").find(".faqs__cards-item-text").slideDown();
             });
     }
 
